@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Painting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+   <style>
+        #graycontainer{
+            background-color: rgba(225, 223, 223, 1);
+            width: 800px;
+            height: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+             
+
+        #blackbar2{
+            background-color: rgba(0, 0, 0, 1);
+            width: 227px;
+            height: 8px;
+            position: absolute;
+            bottom: 496px;
+            left: 410px;
+            z-index: 20;
+        }
+
+        #blackbar3{
+            background-color: rgba(0, 0, 0, 1);
+            width: 227px;
+            height: 8px;
+            position: absolute;
+            bottom: 275px;
+            left: 410px;
+            z-index: 30;
+        }
+
+        #blackbar4{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 229px;
+            position: absolute;
+            bottom: 275px;
+            left: 409px;
+            z-index: 40;
+        }
+
+        #blackbar43{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 229px;
+            position: absolute;
+            bottom: 275px;
+            left: 630px;
+            z-index: 440;
+        }
+
+
+        #blackbar5{
+            background-color: rgba(0, 0, 0, 1);
+            width: 9px;
+            height: 9px;
+            position: absolute;
+            bottom: 385px;
+            left: 519px;
+            z-index: 50;
+        }
+
+        #blackbar6{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 30px;
+            position: absolute;
+            bottom: 374px;
+            left: 531px;
+            z-index: 60;
+        }
+
+        #blackbar7{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 30px;
+            position: absolute;
+            bottom: 374px;
+            left: 508px;
+            z-index: 70;
+        }
+
+        #blackbar8{
+            background-color: rgba(0, 0, 0, 1);
+            width: 31px;
+            height: 8px;
+            position: absolute;
+            bottom: 397px;
+            left: 508px;
+            z-index: 80;
+        }
+
+        #blackbar9{
+            background-color: rgba(0, 0, 0, 1);
+            width: 31px;
+            height: 8px;
+            position: absolute;
+            bottom: 374px;
+            left: 508px;
+            z-index: 90;
+        }
+
+        #blackbar10{
+            background-color: rgba(0, 0, 0, 1);
+            width: 48px;
+            height: 8px;
+            position: absolute;
+            bottom: 363px;
+            left: 499px;
+            z-index: 100;
+        }
+
+        #blackbar11{
+            background-color: rgba(0, 0, 0, 1);
+            width: 48px;
+            height: 8px;
+            position: absolute;
+            bottom: 408px;
+            left: 499px;
+            z-index: 110;
+        }
+
+        #blackbar12{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 53px;
+            position: absolute;
+            bottom: 363px;
+            left: 497px;
+            z-index: 120;
+        }
+
+        #blackbar13{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 53px;
+            position: absolute;
+            bottom: 363px;
+            left: 542px;
+            z-index: 130;
+        }
+        #blackbar14{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 64px;
+            position: absolute;
+            bottom: 358px;
+            left: 553px;
+            z-index: 140;
+        }
+
+        #blackbar15{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 64px;
+            position: absolute;
+            bottom: 358px;
+            left: 486px;
+            z-index: 150;
+        }
+
+        #blackbar16{
+            background-color: rgba(0, 0, 0, 1);
+            width: 75px;
+            height: 8px;
+            position: absolute;
+            bottom: 352px;
+            left: 486px;
+            z-index: 160;
+        }
+
+        #blackbar17{
+            background-color: rgba(0, 0, 0, 1);
+            width: 75px;
+            height: 8px;
+            position: absolute;
+            bottom: 419px;
+            left: 486px;
+            z-index: 170;
+        }
+
+        #blackbar18{
+            background-color: rgba(0, 0, 0, 1);
+            width: 88px;
+            height: 8px;
+            position: absolute;
+            bottom: 430px;
+            left: 479px;
+            z-index: 180;
+        }
+
+        #blackbar19{
+            background-color: rgba(0, 0, 0, 1);
+            width: 88px;
+            height: 8px;
+            position: absolute;
+            bottom: 430px;
+            left: 479px;
+            z-index: 190;
+        }
+
+        #blackbar20{
+            background-color: rgba(0, 0, 0, 1);
+            width: 88px;
+            height: 8px;
+            position: absolute;
+            bottom: 341px;
+            left: 479px;
+            z-index: 200;
+        }
+
+        #blackbar21{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 97px;
+            position: absolute;
+            bottom: 341px;
+            left: 475px;
+            z-index: 210;
+        }
+        
+        #blackbar21{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 97px;
+            position: absolute;
+            bottom: 341px;
+            left: 475px;
+            z-index: 220;
+        }
+
+        #blackbar22{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 97px;
+            position: absolute;
+            bottom: 341px;
+            left: 564px;
+            z-index: 230;
+        }
+
+        #blackbar23{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 112px;
+            position: absolute;
+            bottom: 334px;
+            left: 575px;
+            z-index: 240;
+        }
+
+        #blackbar24{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 112px;
+            position: absolute;
+            bottom: 334px;
+            left: 464px;
+            z-index: 250;
+        }
+
+        #blackbar25{
+            background-color: rgba(0, 0, 0, 1);
+            width: 119px;
+            height: 8px;
+            position: absolute;
+            bottom: 330px;
+            left: 464px;
+            z-index: 260;
+        }
+
+        #blackbar26{
+            background-color: rgba(0, 0, 0, 1);
+            width: 119px;
+            height: 8px;
+            position: absolute;
+            bottom: 441px;
+            left: 464px;
+            z-index: 270;
+        }
+
+        #blackbar27{
+            background-color: rgba(0, 0, 0, 1);
+            width: 131px;
+            height: 8px;
+            position: absolute;
+            bottom: 452px;
+            left: 458px;
+            z-index: 280;
+        }
+
+        #blackbar28{
+            background-color: rgba(0, 0, 0, 1);
+            width: 131px;
+            height: 8px;
+            position: absolute;
+            bottom: 319px;
+            left: 460px;
+            z-index: 290;
+        }
+
+        #blackbar29{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 141px;
+            position: absolute;
+            bottom: 319px;
+            left: 453px;
+            z-index: 300;
+        }
+
+        #blackbar30{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 141px;
+            position: absolute;
+            bottom: 319px;
+            left: 586px;
+            z-index: 310;
+        }
+        
+        #blackbar31{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 151px;
+            position: absolute;
+            bottom: 315px;
+            left: 597px;
+            z-index: 320;
+        }
+
+        #blackbar32{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 151px;
+            position: absolute;
+            bottom: 315px;
+            left: 442px;
+            z-index: 330;
+        }
+
+        #blackbar33{
+            background-color: rgba(0, 0, 0, 1);
+            width: 163px;
+            height: 8px;
+            position: absolute;
+            bottom: 308px;
+            left: 442px;
+            z-index: 340;
+        }
+
+        #blackbar34{
+            background-color: rgba(0, 0, 0, 1);
+            width: 163px;
+            height: 8px;
+            position: absolute;
+            bottom: 463px;
+            left: 442px;
+            z-index: 350;
+        }
+
+        #blackbar35{
+            background-color: rgba(0, 0, 0, 1);
+            width: 173px;
+            height: 8px;
+            position: absolute;
+            bottom: 474px;
+            left: 438px;
+            z-index: 360;
+        }
+
+        #blackbar36{
+            background-color: rgba(0, 0, 0, 1);
+            width: 173px;
+            height: 8px;
+            position: absolute;
+            bottom: 297px;
+            left: 438px;
+            z-index: 370;
+        }
+
+        #blackbar37{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 185px;
+            position: absolute;
+            bottom: 297px;
+            left: 431px;
+            z-index: 380;
+        }
+
+        #blackbar38{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 185px;
+            position: absolute;
+            bottom: 297px;
+            left: 608px;
+            z-index: 390;
+        }
+
+        #blackbar39{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 200px;
+            position: absolute;
+            bottom: 291px;
+            left: 619px;
+            z-index: 400;
+        }
+
+        #blackbar40{
+            background-color: rgba(0, 0, 0, 1);
+            width: 8px;
+            height: 200px;
+            position: absolute;
+            bottom: 291px;
+            left: 420px;
+            z-index: 410;
+        }
+
+        #blackbar41{
+            background-color: rgba(0, 0, 0, 1);
+            width: 207px;
+            height: 8px;
+            position: absolute;
+            bottom: 485px;
+            left: 420px;
+            z-index: 420;
+        }
+
+        #blackbar42{
+            background-color: rgba(0, 0, 0, 1);
+            width: 207px;
+            height: 8px;
+            position: absolute;
+            bottom: 286px;
+            left: 420px;
+            z-index: 430;
+        }
+        
+
+
+
+
+    </style>
+</head>
+
+<body> 
+   <div id="graycontainer"><div style="position: relative ;"></div>
+        <div id="blackbar1"></div>&nbsp;</div>
+        <div id="blackbar2"></div>&nbsp;</div>
+        <div id="blackbar3"></div>&nbsp;</div>
+        <div id="blackbar4"></div>&nbsp;</div>
+        <div id="blackbar5"></div>&nbsp;</div>
+        <div id="blackbar6"></div>&nbsp;</div>
+        <div id="blackbar7"></div>&nbsp;</div>
+        <div id="blackbar8"></div>&nbsp;</div>
+        <div id="blackbar9"></div>&nbsp;</div>
+        <div id="blackbar10"></div>&nbsp;</div>
+        <div id="blackbar11"></div>&nbsp;</div>
+        <div id="blackbar12"></div>&nbsp;</div>
+        <div id="blackbar13"></div>&nbsp;</div>
+        <div id="blackbar14"></div>&nbsp;</div>
+        <div id="blackbar15"></div>&nbsp;</div>
+        <div id="blackbar16"></div>&nbsp;</div>
+        <div id="blackbar17"></div>&nbsp;</div>
+        <div id="blackbar18"></div>&nbsp;</div>
+        <div id="blackbar19"></div>&nbsp;</div>
+        <div id="blackbar20"></div>&nbsp;</div>
+        <div id="blackbar21"></div>&nbsp;</div>
+        <div id="blackbar22"></div>&nbsp;</div>
+        <div id="blackbar23"></div>&nbsp;</div>
+        <div id="blackbar24"></div>&nbsp;</div>
+        <div id="blackbar25"></div>&nbsp;</div>
+        <div id="blackbar26"></div>&nbsp;</div>
+        <div id="blackbar27"></div>&nbsp;</div>
+        <div id="blackbar28"></div>&nbsp;</div>
+        <div id="blackbar29"></div>&nbsp;</div>
+        <div id="blackbar30"></div>&nbsp;</div>
+        <div id="blackbar31"></div>&nbsp;</div>
+        <div id="blackbar32"></div>&nbsp;</div>
+        <div id="blackbar33"></div>&nbsp;</div>
+        <div id="blackbar34"></div>&nbsp;</div>
+        <div id="blackbar35"></div>&nbsp;</div>
+        <div id="blackbar36"></div>&nbsp;</div>
+        <div id="blackbar37"></div>&nbsp;</div>
+        <div id="blackbar38"></div>&nbsp;</div>
+        <div id="blackbar39"></div>&nbsp;</div>
+        <div id="blackbar40"></div>&nbsp;</div>
+        <div id="blackbar41"></div>&nbsp;</div>
+        <div id="blackbar42"></div>&nbsp;</div>
+        <div id="blackbar43"></div>&nbsp;</div>
+
+ 
+    
+
+    </body>
+        
+</body>
+
+<body>
+    <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: rgba(255, 255, 255, 1);">This minimal and abstract piece of work is a replica of Frank Stella's "<a href="https://www.caviar20.com/products/frank-stella-conspiracy-lithograph-1971" style="color: rgba(193, 41, 41, 1);">Conspiracy</a>." I was inspired by Stella's piece because I enjoy artworks that play with one's eyes and mind, as the viewer moves their eyes from left-to-right, one can see the thin squares distort. The amount of squares in the original and the replica create a hallway or tunnel-like feel that seems never-ending. </p>
+   <body style="background-color: rgba(0, 0, 0, 0.90) ;"></body>
+</body>
+
+</html>
+
